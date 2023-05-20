@@ -1,50 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 
 
 
 header {
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
     background: #30343F;
     width: 100%;
-    border: solid black 2px;
-    color: #FAFAFF;
     display: flex;
     justify-content: space-between;
-    
+    padding: 10px;
+
 
 }
 
 .logoNombre {
-    border: solid white 2px;
-    
-
+    display: flex;
+    align-items: center;
 }
 
-
-header img {
-    border: solid white 2px;
+.logoNombre img {
+    width: 360px;
+    height: 95px;
+    margin: 20px 0px 10px 100px;
 }
+
 
 nav {
+    margin-right: 110.3px;
     display: flex;
-    justify-content: flex-end;
-    border: 1px white solid;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin-left: 924px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    gap: 10px
+}
+
+nav ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: orange;
 }
 
 
 .banner {
     border: solid black 2px;
-    display:flex;
+    display: flex;
     justify-content: center;
     width: 100%;
     height: 400px;
-    
+
 
 }
-.banner img{
+
+.banner img {
     width: 100%;
     object-fit: cover;
-    
+
 }
 
 main {
@@ -58,5 +97,5 @@ footer {
     border: solid black 2px;
     display: flex;
     background: #30343F;
-    
+
 }
