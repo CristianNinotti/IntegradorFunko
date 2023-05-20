@@ -1,0 +1,62 @@
+
+
+
+header {
+
+    background: #30343F;
+    width: 100%;
+    border: solid black 2px;
+    color: #FAFAFF;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.logoNombre {
+    border: solid white 2px;
+    
+
+}
+
+
+header img {
+    border: solid white 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px white solid;
+    align-items: flex-start;
+}
+
+
+.banner {
+    border: solid black 2px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    
+
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+main {
+    width: 100%;
+    border: solid black 2px;
+}
+
+footer {
+    color: #FAFAFF;
+    width: 100;
+    border: solid black 2px;
+    display: flex;
+    background: #30343F;
+    
+}
